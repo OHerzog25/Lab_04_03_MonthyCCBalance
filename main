@@ -1,0 +1,23 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        double cardBalance = 5000;
+        double interestRate = 0.17;
+        double interest = 0;
+        double month1 = 0;
+        double month2 = 0;
+
+        interest = cardBalance * 0.17;
+
+        month1 = cardBalance + interest;
+
+        interest = month1 * interestRate;
+
+        month2 = month1 + interest;
+
+        System.out.println("Card Balance: " + cardBalance);
+        System.out.println("Month 1: " + month1);
+        System.out.println("Month 2: " + month2);
+    }
+}
